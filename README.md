@@ -1,5 +1,5 @@
 # ElectroLearn 3D — Basic Electrical and Electronics Engineering (BEEE)
-
+![image alt](https://github.com/PramodTewatia2007/ElectroLearn-3D/blob/fa2d1f1ae9be416ae8cd5b22b1ab37826b3965cb/bee.PNG)
 > An interactive, beginner-friendly 3D educational web platform engineered to teach the complete five-unit Basic Electrical and Electronics Engineering (BEEE) syllabus from absolute zero.
 
 ---
