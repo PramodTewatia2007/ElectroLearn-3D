@@ -1,0 +1,40 @@
+{
+  "name": "electrolearn-3d",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ElectroLearn 3D - Basic Electrical and Electronics Engineering Interactive Learning Platform",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "tsc -b && vite build",
+    "test": "npx tsx test/calculations.test.ts",
+    "server": "npx tsx server/index.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/three": "^0.186.0",
+    "canvas-confetti": "^1.9.4",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "lucide-react": "^1.61.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4"
+  }
+}

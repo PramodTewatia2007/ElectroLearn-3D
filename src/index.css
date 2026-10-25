@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #fbf9f4;
+  --bg-card: #ffffff;
+  --bg-card-warm: #f8f5ee;
+  --bg-accent-light: #fef8ee;
+  --border-warm: #e8e2d5;
+  --border-amber-light: #fcd34d;
+  --text-main: #1f2937;
+  --text-muted: #576375;
+  --accent-amber: #d97706;
+  --accent-blue: #0284c7;
+  --accent-copper: #b45309;
+  --accent-green: #15803d;
+  --accent-red: #dc2626;
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom warm scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ecdf;
+}
+::-webkit-scrollbar-thumb {
+  background: #d5cbba;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b5a995;
+}
+
+/* Engineering math font helper */
+.font-mono-math {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
